@@ -75,6 +75,7 @@ a {
     justify-content: space-between;
     height: 200px;
     width: 500px;
+    gap: 8px;
 }
 
 .description-title {
@@ -89,6 +90,13 @@ a {
 }
 
 button {
+    cursor: pointer;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+}
+
+.description-button button {
     cursor: pointer;
     background-color: #3882F6;
     color: white;
@@ -120,7 +128,7 @@ button {
 
 .information-title {
     font-size: 36px;
-    font-weight: 1000;
+    font-weight: 800;
     color: #1F2937;
     margin-bottom: 20px;
 }
@@ -162,4 +170,47 @@ button {
     color: #1F2937;
     font-style: italic;
     font-weight: normal;
+}
+
+.block-4 {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.box {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    flex-basis: 100%;
+    padding: 48px 90px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.box-button button{
+    border-radius: 8px;
+    padding: 12px 32px;
+    border: 2px solid white;
+    font-weight: 600;
+    margin: 0;
+    height: 100%;
+    font-size: 18px;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box-title {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
