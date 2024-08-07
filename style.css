@@ -102,7 +102,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 10%;
+    padding: 50px 20%;
 }
 
 .information-images {
@@ -141,15 +141,25 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 25%;
 }
 
 .quote {
-    height: 350px;
-    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .quote-author {
     display: flex;
     justify-content: flex-end;
+    font-size: 36px;
+    font-weight: bold;
 }
 
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: normal;
+}
